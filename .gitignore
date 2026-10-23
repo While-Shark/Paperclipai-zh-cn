@@ -1,0 +1,15 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+.env.*
+!.env.example
+.npmrc
+auth.json
+credentials.json
+coverage/upstream-ui-strings.json
+coverage/translation-cache.json
+coverage/manual-keys.json
+coverage/unmapped-ui-strings.json
+coverage/*.tmp

@@ -1,0 +1,138 @@
+{
+  "sourceTag": "v2026.1012.0",
+  "definition": "Static visible UI candidate phrases extracted from TSX JSX text, UI props, and visible literal branches; excludes dynamic application content, user content, and untranslated runtime strings.",
+  "totalCandidates": 8284,
+  "translatedCandidates": 8253,
+  "translationPercent": 99.626,
+  "totalOccurrences": 13911,
+  "translatedOccurrences": 13872,
+  "occurrencePercent": 99.72,
+  "dictionaryEntries": 8764,
+  "untranslatedStaticCandidates": [
+    {
+      "text": "ACP",
+      "count": 3
+    },
+    {
+      "text": "Claude",
+      "count": 2
+    },
+    {
+      "text": "ctx",
+      "count": 2
+    },
+    {
+      "text": "ID",
+      "count": 2
+    },
+    {
+      "text": "OPENAI_API_KEY",
+      "count": 2
+    },
+    {
+      "text": "PAP-123",
+      "count": 2
+    },
+    {
+      "text": "SHA",
+      "count": 2
+    },
+    {
+      "text": "--agent-Nb",
+      "count": 1
+    },
+    {
+      "text": "Anthropic",
+      "count": 1
+    },
+    {
+      "text": "ANTHROPIC_API_KEY",
+      "count": 1
+    },
+    {
+      "text": "arn:aws:secretsmanager:...",
+      "count": 1
+    },
+    {
+      "text": "CSV ·",
+      "count": 1
+    },
+    {
+      "text": "CURSOR_API_KEY",
+      "count": 1
+    },
+    {
+      "text": "DF",
+      "count": 1
+    },
+    {
+      "text": "GEMINI_API_KEY",
+      "count": 1
+    },
+    {
+      "text": "GH_TOKEN",
+      "count": 1
+    },
+    {
+      "text": "GITHUB_TOKEN",
+      "count": 1
+    },
+    {
+      "text": "HTTPS",
+      "count": 1
+    },
+    {
+      "text": "KIMI_MODEL_NAME + KIMI_MODEL_API_KEY",
+      "count": 1
+    },
+    {
+      "text": "lg",
+      "count": 1
+    },
+    {
+      "text": "LG",
+      "count": 1
+    },
+    {
+      "text": "Linux",
+      "count": 1
+    },
+    {
+      "text": "PAP-10113",
+      "count": 1
+    },
+    {
+      "text": "PAP-10114",
+      "count": 1
+    },
+    {
+      "text": "PAP-12462 · P7",
+      "count": 1
+    },
+    {
+      "text": "PID",
+      "count": 1
+    },
+    {
+      "text": "POST /api/agents/claim-api-key",
+      "count": 1
+    },
+    {
+      "text": "SM",
+      "count": 1
+    },
+    {
+      "text": "SSH",
+      "count": 1
+    },
+    {
+      "text": "xoxb-",
+      "count": 1
+    },
+    {
+      "text": "YAML",
+      "count": 1
+    }
+  ],
+  "measuredAt": "2026-10-23T13:34:15.139Z"
+}
