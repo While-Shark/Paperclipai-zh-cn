@@ -3,9 +3,31 @@
   "version": "0.2.2",
   "description": "Simplified Chinese UI localization for Paperclip",
   "type": "module",
-  "private": true,
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/While-Shark/Paperclipai-zh-cn.git"
+  },
+  "homepage": "https://github.com/While-Shark/Paperclipai-zh-cn#readme",
+  "bugs": {
+    "url": "https://github.com/While-Shark/Paperclipai-zh-cn/issues"
+  },
+  "keywords": [
+    "paperclip",
+    "paperclipai",
+    "plugin",
+    "localization",
+    "zh-cn",
+    "simplified-chinese"
+  ],
   "engines": {
     "node": ">=24.11.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "paperclipPlugin": {
     "manifest": "./dist/manifest.js",
@@ -14,6 +36,7 @@
   },
   "scripts": {
     "build": "node build.mjs",
+    "prepack": "node build.mjs",
     "typecheck": "tsc --noEmit",
     "test": "tsx --test tests/*.test.ts",
     "coverage": "tsx scripts/report-coverage.mts",
