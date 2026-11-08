@@ -17,6 +17,22 @@
 - 保留用户输入、任务正文、代码编辑器、API 密钥及未知专有名称，不自动上传私人内容。
 - **离线运行**：已生成的中文词典随插件安装，不依赖在线翻译服务。
 
+## npm 安装（发布后）
+
+> npm 包当前尚未确认发布；只有在 npm Registry 已存在 `@chaostar/paperclip-zh-cn` 时，才能通过 Paperclip 的 **Settings → Plugins → Install Plugin** 输入该包名进行安装。
+
+包名：`@chaostar/paperclip-zh-cn`。支持 npm 包安装的 Paperclip 版本，可直接在插件管理器中填写该包名。发布之前请使用下方 GitHub Release / 本地路径安装方法。
+
+### 维护者：首次 npm 发布
+
+1. 使用有权发布 `@chaostar` scope 的 npm 账户，并确保该 scope 是账户或组织拥有的命名空间。
+2. 为仓库 GitHub Actions 添加名为 `NPM_TOKEN` 的 Actions Secret（需具备发布该包权限，并满足 npm 的 2FA/发布令牌安全要求）。不要将令牌提交进 Git。
+3. 合并发布准备 PR，等待 `Plugin CI` 通过。
+4. 在 GitHub **Actions → Publish npm package → Run workflow** 手动执行发布；该流程检查类型、测试、构建、预览 npm 打包清单，最后执行 `npm publish --access public`。
+5. 发布后通过 `npm view @chaostar/paperclip-zh-cn version` 验证 registry 上的版本，再在 Paperclip 安装窗口输入包名。
+
+如果同版本已发布，npm 不允许覆盖，需要提升版本号，并同步修改 `src/manifest.ts` 的版本号。
+
 ## 安装方式
 
 ### 方法一：下载 Release 安装包（推荐）
